@@ -7,9 +7,9 @@ createApp({
         return {
             activeSlide:0,
             images: [
-                {sources: 'img/01.webp', description: 'first image'},
-                {sources: 'img/02.webp', description: 'second image'},
-                {sources: 'img/03.webp', description: 'third image'},
+                {sources: 'img/gtaCard.jpg', description: 'first image'},
+                {sources: 'https://gmedia.playstation.com/is/image/SIEPDC/star-wars-outlaws-keyart-01-en-17jul23?$1200px$', description: 'second image'},
+                {sources: 'https://gmedia.playstation.com/is/image/SIEPDC/indiana-jones-and-the-great-circle-keyart-01-en-21aug24?$1200px$', description: 'third image'},
                 {sources: 'img/04.webp', description: 'fourth image'},
                 {sources: 'img/05.webp', description: 'fifth image'}
             ]
