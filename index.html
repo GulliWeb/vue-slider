@@ -22,7 +22,7 @@
             </div>
         </div>
         <div id="thumbnails">
-            <!-- Thumbnails if needed -->
+            <img v-for="(image) in images" :src="image.sources" alt="">
         </div>
     </div>
     <script defer src="script.js"></script>
