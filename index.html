@@ -22,7 +22,7 @@
             </div>
         </div>
         <div id="thumbnails">
-            <img v-for="(image) in images" :src="image.sources" alt="">
+            <img v-for="(image, index) in images" :src="image.sources" alt="" @click="setActiveSlide(index)" :class="{ active: index === activeSlide }">
         </div>
     </div>
     <script defer src="script.js"></script>

@@ -16,6 +16,10 @@ createApp({
         }
     },
     methods:{
+        // Funzione che imposta il mio indice al valore dell'immagine cliccata
+        setActiveSlide(index){
+            this.activeSlide = index
+        },
         // Funzione che incrementa di uno il mio slider 
         nextSlide(){
             this.activeSlide++;
